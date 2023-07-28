@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="feedback.dto" >
+  <class name="Feedback" table="Feedback11">
+        <id name="feedbackId" column="feedbackid"/>
+        <property name="customerName" column="customername"/>
+        <property name="feedback" column="feedback"/>
+  </class>
+
+</hibernate-mapping>

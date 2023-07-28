@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="order.dto">
+<class name="Order" table="Order11">
+        <id name="orderId" column="orderid"/>
+        <property name="tableNo" column="tableno"/>
+        <property name="dishName" column="dishname"/>
+        <property name="quantity" column="quantity"/>
+        <property name="additionalInfo" column="additionalinfo"/>
+        <property name="totalAmount" column="totalamount"/>
+            
+    </class>
+
+
+</hibernate-mapping>

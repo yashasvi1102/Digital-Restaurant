@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="chef.dto" >
+  <class name="Chef" table="Chef22">
+        <id name="Id" column="id"/>
+        <property name="pass" column="pwd"/>
+        <property name="orderId" column="orderid"/>
+        <property name="tableNo" column="tableno"/>
+        <property name="dishName" column="dishname"/>
+        <property name="quantity" column="quantity"/>
+        <property name="readyTime" column="readytime"/>
+            
+    </class>
+</hibernate-mapping>
